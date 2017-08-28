@@ -1,4 +1,4 @@
-@echo off& set base=lib\loadExes
+@echo off& set base=%~d0%~p0loadExes
 for %%i in (%*) do (
 	if %%i==iconv (
 		set %%i=%base%\%%i\%%i.exe
