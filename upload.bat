@@ -1,4 +1,4 @@
-@echo off& call lib\loadE.bat qshell& setlocal enabledelayedexpansion
+@echo off& call loadE.bat qshell& setlocal enabledelayedexpansion
 ::说明
 ::    qshell命令是七牛官方命令行工具, 参考 https://developer.qiniu.com/kodo/tools/1302/qshell
 ::    首次登陆后输入公钥密钥后, 会记录在"C:\Users\Admin\.qshell\account.json", 此文件存在就不需要重新登录输入密钥
